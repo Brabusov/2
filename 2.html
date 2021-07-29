@@ -1,0 +1,128 @@
+<!DOCTYPE<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="style.css"> 
+     <title>Survey Form</title>
+</head>
+ <body>
+  <div class="all">
+    <header>
+      <h1>Worldwide survey COVID-19</h1>
+      <p id="description" class="text-form">By passing the survey, you will help us!</p>
+    </header>
+      <form>
+        <div id="survey-form">
+            <label id="name-label" for="name">Full name</label>
+				<input
+					type="text"
+          name="name"
+					placeholder="Enter your name"
+					required
+				/>
+          </div>
+			<div id="email-label">
+				<label  for="email">Email</label>
+				<input
+					type="text"
+					name="email"
+					placeholder="Enter your email"
+					required
+               /> 
+        </div>
+        <div id="number-label">
+				<label  for="number">Age</label>
+				<input 
+					type="number"
+					name="age"
+					min="8"
+					max="120"
+					placeholder="Age"
+					required
+				/>
+			</div>
+        <div id="dropdown">
+          <p class="text-form">How do you feel about covid 19</p>
+          <select  name="role" class="text-form" required>
+					<option disabled selected value>Select current role</option>
+					<option value="Fear">Fear of getting sick</option>
+					<option value="safe">The virus is safe</option>
+					<option value="end">The end of humanity</option>
+					<option value="not_exist">The virus does not exist</option>
+           <option value="indifferent">I am indifferent</option>
+            <option value="aliens">The aliens are to blame</option>
+				</select>
+			</div>
+        <div class="text-form">
+				<p id="vaccine">Which vaccine do you prefer?</p>
+				<label>
+					<input 
+						name="sort"
+						value="Sputnik-V"
+						type="radio"
+						class="input-radio"
+						checked/>Sputnik-V
+				</label>
+				<label>
+					<input 
+						name="sort"
+						value="AstraZeneca"
+						type="radio"
+						class="input-radio"
+						/>AstraZeneca
+				</label>
+				<label>
+					<input 
+						name="sort"
+						value="Pfizer"
+						type="radio"
+						class="input-radio"
+					/>Pfizer
+				</label>
+			</div>
+      <div class="text-form">
+				<p class="input-textarea">Please comment: why do you trust this vaccine?</p>
+				<textarea
+				id="comments"
+				name="comment"
+				placeholder="Enter your comments here ...">
+				</textarea>
+			</div>
+        <div class="text-form">
+				<p>You trust the healthcare system?</p>
+				<label>
+					<input 
+						name="yes"
+						value="yes"
+						type="checkbox"
+						class="input-checkbox"
+					/>Yes
+				</label>
+          <label>
+					<input 
+						name="no"
+						value="No"
+						type="checkbox"
+						class="input-checkbox"
+					/>No
+				</label>
+				<label>
+					<input
+					name="difficult"
+					value="difficult"
+					type="checkbox"
+					class="input-checkbox" 
+					/>Difficult to answer
+				</label>
+          </div>
+        <div class="text-form">
+				<button
+					type="submit"
+					id="submit"
+					class="submit-btn">Submit
+				</button>
+			</div>
+    </form>
+          </div>
+        </body>
+  </html>

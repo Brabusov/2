@@ -1,0 +1,51 @@
+.all {
+   margin: 4rem;
+  background-color:#BEB9A9;
+  width:30%;
+}
+#description {
+  color:#000909;
+  margin-left: 0.7rem;
+  margin-bottom:2rem;
+}
+#survey-form {
+  color:#CC0415;
+ }
+#name-label {
+  width:40.1%;
+}
+#email-label {
+  color:#CC0415;
+  width:67%;
+  }
+#number-label {
+  color:#CC0415;
+   width:68.5%;
+}
+.text-form {
+  color:#000909;
+  margin-left: 0.1rem;
+}
+#dropdown {
+  margin-left:10px;
+}
+#vaccine {
+  margin-left:0.5rem;
+}
+.input-radio {
+  display:inline-block;  <!--горизонтальное расположение-->
+}
+#comments {
+  margin-left:0.5rem;
+  width:50%;
+  }
+.input-textarea {
+  margin-left:0.5rem;
+}
+input-checkbox {
+  display: inline-block;
+}
+#submit {
+  margin:1rem;
+  width:50%;
+  }
